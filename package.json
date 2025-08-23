@@ -1,0 +1,50 @@
+{
+  "name": "claude-vspec",
+  "version": "0.1.0",
+  "description": "V-Model specification-driven development agent for Claude Code - Revolutionary ATDD → SDD → TDD hierarchical development",
+  "keywords": [
+    "claude-code",
+    "claude-extension",
+    "vmodel",
+    "v-model",
+    "specification",
+    "agent",
+    "tdd",
+    "atdd",
+    "bdd",
+    "hierarchical-testing",
+    "test-driven"
+  ],
+  "main": "install.js",
+  "bin": {
+    "claude-vspec": "./install.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js --auto",
+    "install-local": "node install.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiidtw/claude-vspec.git"
+  },
+  "author": "yiidtw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yiidtw/claude-vspec/issues"
+  },
+  "homepage": "https://github.com/yiidtw/claude-vspec#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "install.js",
+    "agents/",
+    "commands/",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
