@@ -198,6 +198,28 @@ Claude-VSpec 與現有的 Claude Code 代理協同工作：
 詳細文檔、範例和貢獻指南，請訪問：
 [https://github.com/yiidtw/claude-vspec](https://github.com/yiidtw/claude-vspec)
 
+## 🚀 Feature Backlog / 功能待辦清單
+
+### Core Features (核心功能)
+- [ ] **SDD Agent** - System Design Decomposer agent
+- [ ] **TDD Agent** - Test-Driven Development implementer agent  
+- [ ] **Scaffolding System** - Project structure generator with test hierarchy
+- [ ] **Function Tagging** - `@vmodel-id` annotation support for JavaScript and Python
+- [ ] **Localhost Visualization** - Interactive V-Model tree at `localhost:5050`
+- [ ] **Validation Commands** - `/vspec-check`, `/vspec-trace` for progress tracking
+- [ ] **UML Generation** - PlantUML/Mermaid system architecture diagrams
+
+### Examples (範例)
+- [ ] **Shopping List Example** - Complete CRUD demonstration with localStorage
+- [ ] **API Backend Example** - REST API with database integration
+
+### Future Enhancements (未來增強)
+- [ ] **Refactor Agent** - Atomic refactoring with preserved V-Model traceability
+- [ ] **Multi-language Support** - Java, C#, Go annotations
+- [ ] **VS Code Extension** - Syntax highlighting and navigation for `@vmodel-id`
+- [ ] **CI/CD Integration** - GitHub Actions for V-Model validation
+- [ ] **Test Coverage Reports** - Visual coverage mapping to V-Model layers
+
 ## License
 
 MIT © [yiidtw](https://github.com/yiidtw)
